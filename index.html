@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBU's 1st Year SICT Tutors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>CBU's 1st Year SICT Tutors</h1>
+    <p class="tagline">Get help in MA110, PH110, CS150 and CS130 from senior students who have been through them.</p>
+    <p class="unofficial">Unofficial, student-run service. Not affiliated with or endorsed by the Copperbelt University.</p>
+  </header>
+
+  <div id="warning" class="warning" hidden></div>
+
+  <section>
+    <h2>How it works</h2>
+    <ol>
+      <li>Pick your course and choose a tutor.</li>
+      <li>Tap "Request this tutor". WhatsApp opens with your request already written.</li>
+      <li>We confirm the time with the tutor and message you back.</li>
+      <li>Meet your tutor in a public place on campus.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Find a tutor</h2>
+    <label for="courseFilter">Course</label>
+    <select id="courseFilter"></select>
+    <p id="count"></p>
+    <div id="tutorList"></div>
+  </section>
+
+  <footer>
+    <p>Tutors are senior students. Always meet in a public place on campus and do not pay large amounts in advance.</p>
+  </footer>
+
+  <script src="tutors.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
